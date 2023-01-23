@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+    <script src='main.js'></script>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-dark mb-1 p-3 fs-3">SITIO WEB DE AUTOS</p>
+    </header>
+
+    <!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary P-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://maseratiecuador.com/" target="_blank"> <i
+                    class="bi bi-car-front-fill"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#seccion-nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Suscribete</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--CAROUSEL-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/OIP (1).jpeg" class="d-block w-100" alt="auto1">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/OIP.jpeg" class="d-block w-100" alt="auto2">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/R.jpeg" class="d-block w-100" alt="auto70">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Acerca de Nosostros-->
+    <section>
+        <div class="container w-50 m-auto text-center" id="seccion-nosotros">
+            <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+            <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo
+                para este reto, te esperamos para que te unas a nosotros.</p>
+        </div>
+
+        <div class="mt-5 text-center">
+            <img id="img-equipo" src="imagenes/Equipo.jpeg" alt="equipo">
+        </div>
+
+        <div id="local" class="border-top border-2">
+            <div class="mapa"> </div>
+            <div>
+                <div class="container w-50 m-auto text-center">
+                    <h2>Ubicado en Quito, Ecuador</h2>
+                    <h2 class="text-primary mb-4" id="typewriter"></h2>
+                    <p class="fs-5 text-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sint
+                        aperiam, placeat ea recusandae accusamus similique officiis velit cupiditate. Velit iusto soluta
+                        aspernatur dolores, est vel consectetur deserunt rerum? Natus.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--SECCION 1-->
+    <section class="w-50 mx-auto text-center pt-5">
+        <h1 class="p-3 border-top border-3">Disponibles <span class="text-primary"> Los mejores
+                automóviles </span></h1>
+        <p class="p-3 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae consequatur ducimus
+            maiores aliquam quibusdam repudiandae, totam, natus esse rem nemo dignissimos voluptatum facere dolor
+            perferendis, veniam voluptatibus ad a!</p>
+
+    </section>
+
+
+
+    <!--SECCION BOOTSTRAP-->
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="container w-50 m-auto text-center"">
+                <img src=" imagenes/R.jpeg" alt="auto1" width="189" height="160">
+                <div>
+                    <h3 class="mt-4 px-4 pb-1">Modelo</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum odio praesentium ex
+                        iure rem laboriosam</p>
+
+                </div>
+
+                <div class="container w-50 m-auto text-center">
+                    <img src="imagenes/OIP.jpeg" alt="auto1" width="189" height="160">
+                    <div>
+                        <h3 class="mt-4 px-4 pb-1">Modelo</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum odio praesentium
+                            ex iure rem laboriosam</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <!--FOOTER-->
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3  pt-3">AUTOS. &copy; Todos Los Derechos Reservados 2023</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
